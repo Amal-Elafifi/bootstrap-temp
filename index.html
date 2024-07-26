@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html id="adaptive_html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Temp</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="/css/default-theme.css">
+     <link rel="stylesheet" href="./css/animate.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./js/respond.matchmedia.addListener.min.js"></script>
+    <script src="./js/all.js"></script>
+</head>
+<body>
+    <!-- start tool box section -->
+    <section class="option-box">
+      <div class="color-options">
+        <h4>Color Options</h4>
+        <ul class="list-unstyled">
+          <li data-value="css/default-theme.css"></li>
+          <li data-value="css/green-theme.css"></li>
+          <li data-value="css/moov-theme.css"></li>
+          <li data-value="css/orange-theme.css"></li>
+          <li data-value="css/purple-theme.css"></li>
+          <li data-value="css/blue-theme.css"></li>
+          <li data-value="css/pink-theme.css"></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-gear fa-3x gear-check"></i>
+    </section>
+    <!-- end tool box section -->
+    <!-- start navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">ECO <span>Fashion</span></a>
+          </div> 
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="./index.html"> Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="./about.html">About</a></li>
+              <li ><a href="./FAQ.html">FAQ</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Dress</a></li>
+                  <li><a href="#">Top</a></li>
+                  <li><a href="#">Skirt</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Shoes</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Map</a></li>
+              <li><a href="#">Contact <i class="glyphicon glyphicon-earphone"></i></a></li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- start carousel -->
+      <div id="my-slide" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#my-slide" data-slide-to="0" class="active"></li>
+          <li data-target="#my-slide" data-slide-to="1"></li>
+          <li data-target="#my-slide" data-slide-to="2"></li>
+          <li data-target="#my-slide" data-slide-to="3"></li>
+
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox"  style="max-width:1400px; max-height:500px !important;">
+          <div class="item active">
+            <img src="./images/pic1.png" alt="pic1">
+            <div class="carousel-caption cap-1">
+                <h2 class="h1">Dress</h2>
+                <p class="lead">It can be difficult to articulate the power of style and fashion through words, get inspired by these 87 quotes that will never go out of style.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/pic2.jpg" alt="pic2">
+            <div class="carousel-caption cap-2">
+                 <h2 class="h1">Top</h2>
+                 <p class="lead">Fashion is part of the daily air and it changes all the time, with all the events. You can see and feel everything in clothes.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/pic3.jpg" alt="pic3">
+            <div class="carousel-caption cap-3">
+                <h2 class="h1">Skirt</h2>
+                <p class="lead">Don't be into trends. Don't make fashion own you, but you decide what you are, what you want to express by the way you dress and the way to live</p>
+            </div>
+         </div>
+          <div class="item">
+            <img src="./images/pic4.jpg" alt="pic4">
+            <div class="carousel-caption cap-4">
+                <h2 class="h1">Shoes</h2>
+                <p class="lead">What you wear is how you present yourself to the world, especially today, when human contacts are so quick. Fashion is instant language</p> 
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#my-slide" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#my-slide" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- end carousel -->
+      <!-- start About section -->
+      <section class="about text-center" >
+        <div class="container">
+            <h1 class="wow pulse" data-wowo-duration="3s"data-wow-delay=".5s" data-wow-offset="150">Story of <span>ECO Fashion</span></h1>
+            <p class="lead"><strong>ECO Fashion </strong>is the leading online shopping platform, bringing a new culture of fashion to Egypt, Launched in 2018.with the vision to unite and promote all Egyptian designers, and revive the culture of fashion in Egypt. Now home to over 300 Egyptian designers and brands, <strong>ECO Fashion</strong> is the largest hub of its kind to designers in Egypt.</p>
+        </div>
+      </section>
+      <!-- end About section -->
+      <!-- start Features section -->
+      <section class="features text-center">
+          <div class="container">
+            <h2 class="h1 wow tada" data-wowo-duration="3s" data-wow-delay=".5s" data-wow-offset="200">Features</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 wow slideInLeft" data-wowo-duration="3s" data-wow-delay="1s" data-wow-offset="200">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        <h4>Sweet and Simple</h4>
+                        <p>The objective of any eCommerce site is to make customers tap the buy button, and with the help of a simple UI coupled with relevant images and effective navigation.This is what we talk about.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow slideInLeft"data-wowo-duration="3s" data-wow-delay=".6s" data-wow-offset="200">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                        <h4>Mobile Shopping</h4>
+                        <p>Mobile does the magic.In the light of this research, it is obvious mobile is the highest channel of online sales.creating a mobile-friendly online store is a sure shot way to increase your site traffic.This is what we talk about. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow slideInRight"data-wowo-duration="3s" data-wow-delay=".6s"data-wow-offset="200">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                        <h4>Quality Images</h4>
+                        <p>Because images create impressions.Product images power your business, and they are important in online fashion stores as they form a major part of a shopper’s initial impressions on the product.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow slideInRight"data-wowo-duration="3s" data-wow-delay="1s"data-wow-offset="200">
+                    <div class="feat">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                        <h4>Product Reviews</h4>
+                        <p>Building brand trust and loyalty.Shoppers usually are inclined towards buying fashion products which are already purchased and found to be good.This encourages them to do that again.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+      </section>
+      <!-- end Features section -->
+      <!-- start Testimonials section -->
+      <section class="testimonials text-center">
+        <!-- start container -->
+        <div class="container">
+            <h2 class="h1 wow flipInY" data-wowo-duration="2" data-wow-delay=".3s" data-wow-offset="200">What our clients say?</h2>
+            <!-- start carousel -->
+              <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox"  style="max-width:1400px; max-height:500px !important;">
+                  <div class="item active">
+                    <p class="lead">Ewa Young is truly all about teenage fashion. the kind of fashion which would look great on skinny girl unlike on a woman like me.  Though they do offer some tops and skirts which I might wear but their fashion celebrates teen spirits more. You will find bright floral or even cartoon prints on their popular senorita crop top collection.</p>
+                     <span>EWA YOUNG</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">If you are a sari lover and looking for some contemporary cotton sarees online. Go for SUTA BOMBAY they also offer some great blouses which I could not have bought because I always find them a little higher on  price side but the blouse designs are seriously nice and you must buy their dramatic sleeves blouses for sure</p>
+                    <span>FAB ALLEY</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">If you are a sari lover and looking for some contemporary cotton sarees online. Go for SUTA BOMBAY they also offer some great blouses which I could not have bought because I always find them a little higher on  price side but the blouse designs are seriously nice and you must buy their dramatic sleeves blouses for sure</p>
+                    <span>RITA ADAMS</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">INDYA has some great clothes to offer suiting your modern contemporary taste when it comes to ethnic wears. their high slit tunics are exquisite and come in all sort of designs, colours and fabric like crepe, poly silk georgette and more. I have bought a few high low high slit tunics through my faballey app installed in my phone through indya section.</p>
+                    <span>SUTA BOMBAY</span>
+                  </div>
+              </div>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#testimonials-carousel" data-slide-to="0" class="active">
+                    <img src="./images/rev1.jpg" alt="EWA YOUNG">
+                  </li>
+                  <li data-target="#testimonials-carousel" data-slide-to="1">
+                    <img src="./images/rev2.jpg" alt="FAB ALLEY">
+                  </li>
+                  <li data-target="#testimonials-carousel" data-slide-to="2">
+                    <img src="./images/rev3.jpg" alt="RITA ADAMS">
+                  </li>
+                  <li data-target="#testimonials-carousel" data-slide-to="3">
+                    <img src="/images/rev4.jpg "alt="SUTA BOMBAY">
+                  </li>
+                </ol>
+            </div>
+              <!-- end carousel -->
+        </div>
+
+      </section>
+      <!-- end Testimonials section -->
+      <!-- start price table section -->
+      <section class="price-table text-center">
+        <div class="container">
+          <h2 class="h1">Fabulous Packages</h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+                <h3 class="text-primary">Package One</h3>
+                 <p class="center-block">$80</p>
+                 <ul class="list-unstyled">
+                   <li>Top</li>
+                   <li>Skirt</li>
+                   <li>Shoes</li>
+                   <li>Bracelet</li>
+                 </ul>
+                 <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+                <h3 class="text-success">Package Two</h3>
+                 <p class="center-block">$95</p>
+                 <ul class="list-unstyled">
+                   <li>Dress</li>
+                   <li>Shoes</li>
+                   <li>Bag</li>
+                   <li>Necklace</li>
+                 </ul>
+                 <a href="#" class="btn btn-success">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+                <h3 class="text-info">Package Three</h3>
+                 <p class="center-block">$100</p>
+                 <ul class="list-unstyled">
+                   <li>Jacket</li>
+                   <li>Top</li>
+                   <li>Bottom</li>
+                   <li>Heels</li>
+                 </ul>
+                 <a href="#" class="btn btn-info">Order Now</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="price-box">
+                <h3 class="text-danger">Package Four</h3>
+                 <p class="center-block">$180</p>
+                 <ul class="list-unstyled">
+                   <li>Dress</li>
+                   <li>Coat</li>
+                   <li>Boots</li>
+                   <li>Elegant Bag</li>
+                 </ul>
+                 <a href="#" class="btn btn-danger">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end price table section -->
+      <!-- start our team section -->
+      <section class="our-team text-center">
+        <div class="team">
+          <div class="container">
+            <h2 class="h1">Meet Our Awesome Team</h2>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="./images/man1.jpg" class="img-circle" alt="Mike Adams " width="200px" height="200px">
+                     <h3>Mike Adams</h3>
+                     <p>The founder of the line and says that woman must has elegan outfit.</p>
+                     <i class="fa-brands fa-facebook-square fa-xl"></i>
+                     <i class="fa-brands fa-twitter fa-xl"></i>
+                     <i class="fa-brands fa-linkedin fa-xl"></i>
+                     <i class="fa-brands fa-square-google-plus fa-xl"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="./images/man2.webp" class="img-circle" alt="Zen corner" width="200px" height="200px">
+                    <h3>Zen corner</h3>
+                    <p>The main designer of women kits in the team.He is professional. </p>
+                    <i class="fa-brands fa-facebook-square fa-xl"></i>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <i class="fa-brands fa-square-google-plus fa-xl"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="./images/woman1.jpg" class="img-circle" alt="Emma Watson" width="200px" height="200px">
+                     <h3>Emma Watson</h3>
+                     <p>The marketting director of the line and the soul of the success in the company.</p>
+                     <i class="fa-brands fa-facebook-square fa-xl"></i>
+                     <i class="fa-brands fa-twitter fa-xl"></i>
+                     <i class="fa-brands fa-linkedin fa-xl"></i>
+                     <i class="fa-brands fa-square-google-plus fa-xl"></i>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="person">
+                    <img src="./images/woman2.jpg" class="img-circle" alt="Ann jacks" width="200px" height="200px">
+                    <h3>Anabelle jacks</h3>
+                    <p>the designer of bags and shoes and the selector of the models in the company. </p>
+                    <i class="fa-brands fa-facebook-square fa-xl"></i>
+                    <i class="fa-brands fa-twitter fa-xl"></i>
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <i class="fa-brands fa-square-google-plus fa-xl"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </section>
+      <!-- end our team section -->
+      <!-- start subscribe section -->
+      <section class="subscribe text-center">
+        <div class="container">
+          <h2 class="h1">Keep In Touch</h2>
+          <form class="form-inline">
+               <p class="lead">Sign Up to be the first to see the new collection</p>
+               <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+               <button class="btn btn-lg"> <i class="fa fa-edit fa-lg"></i>Subscribe</button>
+          </form>
+        </div>
+      </section>
+      <!-- end subscribe section -->
+      <!-- start stats section -->
+      <section class="statistics text-center">
+        <div class="data">
+          <h2 class="h1">Statistics For Month</h2>
+          <div class="container">
+            <div class="col-md-3 col-sm-6">
+                <div class="info">
+                  <i class="fa-solid fa-users fa-5x"></i>
+                  <span>25.865</span>
+                  <p>Customers</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="info">
+                  <i class="fa-solid fa-comments fa-5x"></i>
+                  <span>18.400</span>
+                  <p>Reviews</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="info">
+                  <i class="fa-solid fa-heart fa-5x"></i>
+                  <span>9.786</span>
+                  <p>kits lovers</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                 <div class="info">
+                    <i class="fa-solid fa-sack-dollar fa-5x"></i>
+                    <span>987.764</span>
+                    <p>Sales</p>
+                 </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <!-- end stats section -->
+      <!-- start our skills section -->
+          <section class="our-skills">
+            <h2 class="text-center h1">Our Team Skills</h2>
+            <div class="container">
+              <div class="row">
+                 <div class="col-lg-5">
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="200" style="width: 85%; background-color: rgb(24, 177, 24);">
+                            Design Skills
+                      </div>
+                     </div>
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="200" style="width: 75%; background-color: crimson;">
+                            Marketting Skills
+                      </div>
+                     </div>
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped active " role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="200" style="width: 70%; background-color: rgb(38, 202, 202);">
+                            Color Coordinating
+                      </div>
+                     </div>
+                     <div class="progress">
+                      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="200" style="width: 95%; background-color: orangered;">
+                            Professionality
+                      </div>
+                     </div>
+                 </div>
+                  <div class="col-lg-6 col-lg-offset-1">
+                    <h3>Our Team Skills</h3>
+                    <p class="lead">Not all of us are born with the best fashion sense right off the bat. Acquiring good style can take time, and it even requires a healthy amount of self-reflection. Before you learn how, exactly, to dress sharp for professional business meetings, you may want to check out some words of inspiration from 17 of the world's greatest fashion icons.</p>
+                     <button type="button" class="btn btn-info" >Talk To Team</button>
+                  </div>
+                </div>
+            </div>
+
+          </section>
+      <!-- end our skills section -->
+      <!-- start contact us section -->
+      <section class="contact-us text-center">
+        <div class="field">
+          <i class="fa-solid fa-headphones fa-6x"style ="color: #fff"></i>
+          <h2 class="h1 wow bounceIn" data-wowo-duration=".5s" data-wow-delay=".3s" data-wow-offset="300">Tell Us What You Wish</h2>
+          <div class="container">
+            <p class="lead wow bounceIn" data-wowo-duration="1s" data-wow-delay=".7s" data-wow-offset="300">Feel Free To Tell Us What You Wish</p>
+            <form role="form">
+              <div class="row">
+                  <div class="col-lg-6 wow fadeInLeft" data-wow-delay="1s" data-wowo-duration="4s">
+                      <div class="form-group">
+                          <input type="text" class="form-control input-lg" placeholder="Username">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control input-lg" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" class="form-control input-lg" placeholder="Cellphone">
+                      </div>
+                     
+                  </div>
+                  <div class="col-lg-6 wow fadeInRight" data-wow-delay="1s" data-wowo-duration="4s">
+                    <div class="form-group">
+                        <textarea class="form-control input-lg" placeholder="Write your message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-lg btn-block">Contact Us</button>
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </section>
+      <!-- end contact us section -->
+      <!-- Start our clients section -->
+      <section class="our-clients">
+        <h2 class="text-center h1">Our Clients</h2>
+        <div class="container">
+          <div class="row">
+            <ul class="list-unstyled">
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="./images/clients/img1.webp" class="img-responsive center-block" alt="">
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="/images/clients/img2.png" class="img-responsive center-block" alt="">
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="/images/clients/img3.webp" class="img-responsive center-block" alt="">
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="/images/clients/img4.jpg" class="img-responsive center-block" alt="">
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="/images/clients/img5.png" class="img-responsive center-block" alt="">
+              </li>
+              <li class="col-md-2 col-sm-4 col-xs-6">
+                <img src="/images/clients/img6.jpg" class="img-responsive center-block" alt="">
+              </li>
+
+            </ul>
+        
+          </div>
+        </div>
+    </section>
+      <!-- End our clients section -->
+      <!-- start footer section -->
+      <section class="footer navbar-inverse">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <h2>Sitemap</h2>
+                <ul class="list-unstyled three-columns">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Company</li>
+                  <li>Services</li>
+                  <li>Map</li>
+                  <li>Contact</li>
+                  <li>Sitemap</li>
+                  <li>Offers</li>
+                  <li>Newline</li>
+                 </ul>
+                 <ul class="list-unstyled social-icons">
+                  <li><img src="./images/social icons/icon1.png" alt=""></li>
+                  <li><img src="./images/social icons/icon2.png" alt=""></li>
+                  <li><img src="./images/social icons/icon3.png" alt=""></li>
+                  <li><img src="./images/social icons/icon4.png" alt=""></li>
+                  <li><img src="./images/social icons/icon5.png" alt=""></li>
+                  <li><img src="./images/social icons/icon6.png" alt=""></li>
+                 </ul>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <h2>Latest Articles</h2>
+                <div class="media">
+                        <a href="#" class="pull-left">
+                          <img class="media-object" src="./images/articles/art1.jpg" alt="article 1">
+                        </a>
+                    <div class="media-body">
+                          <h4 class="media-heading">Selection</h4>
+                          Its all about how to be confident you make the wright choice fo your outfit kits.
+                    </div>
+                </div>
+                <div class="media">
+                      <a href="#" class="pull-left">
+                        <img class="media-object" src="./images/articles/art2.jpg" alt="article 2">
+                      </a>
+                  <div class="media-body">
+                        <h4 class="media-heading">Fresh & Cozy</h4>
+                        Casual clothes make you fresh and comfy they are suitable if you are in hurry.
+                      </div>
+                </div>
+                <div class="media">
+                      <a href="#" class="pull-left">
+                        <img class="media-object" src="./images/articles/art3.jpg" alt="article 3">
+                      </a>
+                  <div class="media-body">
+                      <h4 class="media-heading">Harmony</h4>
+                      It is not important wear expensive or cheap but what realy matters how to wear. 
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <h2>Latest Collections</h2>
+                <div class="collections">
+                    <img class="img-thumbnail" src="./images/our work/work1.webp" alt="collection1">
+                    <img class="img-thumbnail" src="./images/our work/work2.jpg" alt="collection2">
+                    <img class="img-thumbnail" src="./images/our work/work3.jpg" alt="collection3">
+                    <img class="img-thumbnail" src="./images/our work/work4.jpg" alt="collection4">
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="copy text-center">Copyright <span>&copy;</span> 2022 <span>ECO</span> Fashion by Amal Elafifi</p>
+      </section>
+      <!-- End footer section -->
+      <!-- start loading screen -->
+      <div class="loading-screen">
+        <span class="loader"></span>
+      </div>
+      <!-- end loading screen -->
+      <!-- start scrolltop effect-->
+      <button class="up-btn wow bounceIn ">
+        <i class="fa-solid fa-chevron-up fa-3x"></i>
+      </button>
+      <!-- end scroll top effect -->
+      <script  src="./js/jquery-3.1.1.min.js"></script>
+      <script  src="./js/bootstrap.min.js"></script>
+      <script  src="./js/main.js"></script>
+      <script  src="./js/plugins.js"></script>
+      <script src="./js/wow.min.js"></script>
+      <script>new WOW().init()</script>
+      <script src="./js/jquery.nicescroll.min.js"></script>
+</body>
+</html>

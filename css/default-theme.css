@@ -1,0 +1,69 @@
+.option-box .color-options {
+    border: 4px solid rgb(204, 3, 3);
+}
+.option-box .gear-check,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu .divider,
+.subscribe button,
+.contact-us button, .btn-lg, .btn-group-lg,
+.btn-lg, .btn-group-lg > .btn,
+.up-btn 
+{
+    background-color: rgb(204, 3, 3);
+}
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.about p strong,
+.breadcrumb-holder .breadcrumb > .active,
+.about-info .h1,
+.about-info svg:not(:host).svg-inline--fa,
+.about-owner .h1, 
+.faq .h1,
+.features .h1,
+.glyphicon::before,
+.testimonials .h1,
+.testimonials span,
+.price-table .h1,
+.price-table .price-box p,
+.subscribe .h1,
+.statistics .h1,
+.statistics p,
+.statistics ,
+.our-skills .h1,
+.contact-us .h1,
+.our-clients .h1,
+.footer h2,
+.footer .copy span:nth-child(2)
+{
+    color: rgb(204, 3, 3);
+}
+.navbar-nav > li > .dropdown-menu {
+    border-top: 3px solid rgb(204, 3, 3);
+}
+.testimonials .carousel-indicators li {
+    border: 2px solid rgb(204, 3, 3);
+}
+.our-clients li img {
+    border: 2px dotted rgb(218, 3, 3);
+}
+.subscribe .form-control {
+    border-color: rgb(204, 3, 3);
+}
+.subscribe button:hover,
+.contact-us button:hover {
+    background-color: black;
+    color: red;
+}
+.faq .panel-default {
+    border: 2px solid rgba(255, 0, 0, 0.548);
+}
+.faq .panel-title > a {
+    color: #000000c2;
+}
+
+.faq .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 2px solid rgba(255, 0, 0, 0.548);
+}
